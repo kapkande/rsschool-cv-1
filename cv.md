@@ -1,10 +1,10 @@
 ## Dmitriy Savchenko
 ![Logo CV](./cv.jpg)
 ### About me
-_Увлекаюсь програмированием и дизайном с 2010 года. Также интересуюсь строительной областью.
-В **2010** году поступил в __Запорожскую компьютерную академию "STEP"__ на специальность дизайн, паралельно изучал веб технологии.
-Постоянно практикуюсь и изучаю новые возможности в разработке, изучаю новые техники  и слежу за IT cферой.
-Есть практические наработки по **javascript**, интересуюсь **PHP** в области веб разработки._
+_I have been passionate about programming and design since 2010. I am also interested in the construction field.
+In **2010** he entered the __Zaporozhye Computer Academy "STEP"__ for the specialty of design, studied web technologies in parallel.
+I constantly practice and study new opportunities in development, learn new techniques and follow the IT sphere.
+I have practical experience on **javascript**, I am interested in **PHP** in the field of web development._
 ### Contacts
 * Запорожье, Украина
 * Email
