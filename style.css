@@ -87,3 +87,10 @@ body {
       width: 100%;
     }
   }
+  .section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+  }
