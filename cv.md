@@ -38,6 +38,6 @@ console.log(result);
 ### EDUCATION
 * Computer Academy in Dnipro "ITEA"
 ### ENGLISH-LEVEL
-* A1
+* A1-Pre-Intermediate
 
 

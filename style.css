@@ -193,6 +193,10 @@ body {
     list-style: none;
   }
 
+  .courses__list span {
+    color: #829985;
+    padding-left: 10px;
+  }
   .skills__item,
   .courses__item {
     display: flex;
