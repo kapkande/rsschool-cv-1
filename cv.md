@@ -36,7 +36,7 @@ console.log(result);
 * ITEA Dnipro - [Gallary](https://dmitriy2711.github.io/javascript_course_work/);
 * ITEA Dnipro - [Stomatology site](https://dmitriy2711.github.io/HTML_CSS_project/);
 ### EDUCATION
-
+* Computer Academy in Dnipro "ITEA"
 ### ENGLISH-LEVEL
 * A1
 
