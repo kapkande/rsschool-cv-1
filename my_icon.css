@@ -23,13 +23,14 @@
   font-family: "my_icon";
   font-style: normal;
   font-weight: normal;
-  speak: never;
-
+  /* speak: never; */
+  color: #829985;
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
   text-align: center;
+  margin-right: 10px;
   /* opacity: .8; */
 
   /* For safety - reset parent styles, that can break glyph codes*/

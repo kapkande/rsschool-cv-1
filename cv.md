@@ -28,12 +28,13 @@ let result = str_func(str);
 console.log(result);
 ```
 ### COURSES
-* It-STEP : WEb-design;
+* It-STEP Zaporozhye : WEb-design;
 * ITEA Dnipro : HTML and CSS course;
 * ITEA Dnipro : Javascript Basic;
 * ITEA Dnipro : Javascript Advanced;
 ### PROJECTS
-* ITEA Dnipro - gallary;
+* ITEA Dnipro - Gallary;
+* ITEA Dnipro - Stomatology site
 ### EDUCATION
 
 ### ENGLISH-LEVEL

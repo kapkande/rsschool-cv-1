@@ -11,6 +11,7 @@ html {
   }
 
 body {
+    padding: 0 10px;
     justify-content: stretch;
     font-size: 18px;
     font-weight: 400;
@@ -39,9 +40,9 @@ body {
 .contact-list > li > a {
   color: #829985;
 }
-.contact-list__item {
+/* .contact-list__item {
   
-}
+} */
 
 /* .location {
   list-style-image: url("assets/img/location.svg");
@@ -60,6 +61,8 @@ body {
 } */
 
 .main {
+  display: flex;
+  flex-wrap: wrap;
     width: 100%;
     border: 1px solid red;
 }
@@ -71,8 +74,7 @@ body {
 
 .container {
     display: flex;
-    align-items: center;
-    justify-content: stretch;
+    flex-wrap: wrap;
     max-width: 1440px;
     margin: 0 auto;
     border: 1px solid red;
@@ -88,8 +90,8 @@ body {
     background: no-repeat  0 -45px url("assets/img/cv.jpg");
     background-size: cover;
     /* border: 1px solid red; */
-    width: 200px;
-    height: 200px; 
+    min-width: 200px;
+    min-height: 200px; 
     border-radius: 50%;  
   }
   .main-section-logo {
@@ -122,8 +124,29 @@ body {
       font-weight: 400;
   }
 
+  .section {
+    width: 50%;
+  }
+
   .section-title {
+    padding: 15px 0;
+    position: relative;
     color: #829985;
+  }
+
+  .profile__title {
+    padding: 20px 0;
+  }
+
+  .profile__title:after {
+    content: "";
+    position: absolute;
+    left: 22.5%;
+    top: 100%;
+    width: 50%;
+    height: 2px;
+    background-color: #829985;
+    
   }
 
   .section-item a {
@@ -163,4 +186,29 @@ body {
     height: 10px; 
     border: 1px solid #829985;
     border-radius: 50%;
+  }
+
+  .skills__list,
+  .courses__list {
+    list-style: none;
+  }
+
+  .skills__item,
+  .courses__item {
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  .skills__item::before,
+  .courses__item::before  {
+    content: "";
+    margin-right: 5px;
+    width: 5px;
+    height: 5px;
+    border: 2px solid #829985;
+  }
+
+  .code {
+    line-height: 0.1mm;
+    font-size: 15px;
   }
