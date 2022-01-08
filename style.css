@@ -3,14 +3,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
 }
 
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
   }
 
 body {
-  font: 400 'Roboto', sans-serif;
+
     padding: 0 10px;
     justify-content: stretch;
     font-size: 18px;
@@ -29,7 +32,6 @@ body {
 
 .main-header {
     width: 100%;
-    border: 1px solid red;
     background-color: #829985;
 }
 
@@ -64,7 +66,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  border: 1px solid red;
 }
 
 .container {
@@ -141,7 +142,20 @@ body {
     position: relative;
     color: #829985;
   }
-
+  
+  .section-title::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 0%;
+    height: 5px;
+    background-color: #829985;
+    transition:  3s;
+  }
+  .section-title:hover::after {
+    width: 20%;
+  }
   .section li {
     line-height: 40px;
   }
@@ -185,22 +199,7 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #829985;
-  }
-  .section-item {
-    position: relative;
-    padding-left: 30px;
-  }
-  
-  .section-item::before {
-    content: "";
-    position: absolute;
-    top: 8px;
-    left: 0px;
-    width: 10px;
-    height: 10px; 
-    border: 1px solid #829985;
-    border-radius: 50%;
+    color: #829985;  
   }
 
   .skills__list,
@@ -259,6 +258,24 @@ body {
   .main-footer__span {
     font-weight: 700;
     padding-right: 20px;
+  }
+
+  .nav-item > a {
+    position: relative;
+    padding-bottom: 5px;
+  }
+  .nav-item > a::after{
+    transition: 3s;
+    position: absolute;
+    bottom: 0;
+    left: 19%;
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: #fff;
+  }
+  .nav-item > a:hover::after {
+    width: 70%;
   }
   
   
