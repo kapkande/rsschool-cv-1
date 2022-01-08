@@ -33,8 +33,8 @@ console.log(result);
 * ITEA Dnipro : Javascript Basic;
 * ITEA Dnipro : Javascript Advanced;
 ### PROJECTS
-* ITEA Dnipro - Gallary;
-* ITEA Dnipro - Stomatology site
+* ITEA Dnipro - [Gallary](https://dmitriy2711.github.io/javascript_course_work/);
+* ITEA Dnipro - [Stomatology site](https://dmitriy2711.github.io/HTML_CSS_project/);
 ### EDUCATION
 
 ### ENGLISH-LEVEL
