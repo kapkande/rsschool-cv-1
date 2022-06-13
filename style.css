@@ -138,6 +138,8 @@ body {
   }
 
   .section-title {
+    width: 20%;
+    /* border: 1px solid red; */
     padding: 15px 0;
     position: relative;
     color: #829985;
@@ -152,9 +154,10 @@ body {
     height: 5px;
     background-color: #829985;
     transition:  3s;
+    /* border: 1px solid red; */
   }
   .section-title:hover::after {
-    width: 20%;
+    width: 97%;
   }
   .section li {
     line-height: 40px;
