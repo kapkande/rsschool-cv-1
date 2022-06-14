@@ -31,7 +31,9 @@
     <main class="main">
             <section class="section container" id="profile">
                 <div class="logo-container">
-                    <!-- <img src="./assets/img/cv.jpg" alt="cv-image" class="main-section-logo"> -->
+                    <div class="logo">
+                        <!-- <img src="./assets/img/cv.jpg" alt="cv-image" class="main-section-logo"> -->
+                    </div>
                 </div>
                 <h1 class="section-title profile__title">DMYTRO SAVCHENKO</h1>
             </section>
@@ -67,18 +69,20 @@
                 </section>
                 <section class="section" id="code">
                     <h2 class="section-title">CODE</h2>
-                    <code class="code">
-                        <span class="code__span">javascript</span><br><br>
-                            let str = "String"
-                            const str_func = (string) => {<br>
-                                if (string == "") {<br>
-                                    return "Error 404";<br>
-                                }<br>
-                                    return string;<br>
-                            };<br>
-                            let result = str_func(str);<br>
-                            console.log(result);<br>
-                    </code>
+                    <div class="code-container">
+                        <code class="code">
+                            <span class="code__span">javascript</span><br><br>
+                                let str = "String"
+                                const str_func = (string) => {<br>
+                                    if (string == "") {<br>
+                                        return "Error 404";<br>
+                                    }<br>
+                                        return string;<br>
+                                };<br>
+                                let result = str_func(str);<br>
+                                console.log(result);<br>
+                        </code>
+                    </div> 
                 </section>
                 <section class="section" id="courses">
                     <h2 class="section-title">COURSES</h2>
@@ -106,9 +110,13 @@
                 </section>
             </div>
     </main>
-    <footer class="main-footer ">
+    <footer class="main-footer">
         <div class="main-footer__block container">
-            <span class="main-footer__span">2022</span><a href="https://github.com/Dmitriy2711/rsschool-cv">@dmitriy2711</a>
+            <span class="main-footer__span">2022</span>
+            <a href="https://github.com/Dmitriy2711/rsschool-cv">@dmitriy2711</a>
+            <a href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0" target="_blank" id="rc-link">
+                <img src="/assets/img/cv-hints_mini.png" alt="rolling-scope image" >
+            </a>
         </div>
     </footer>
 </body>
